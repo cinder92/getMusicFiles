@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova.plugin.getExtPath" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>getExtPath</name>
+	<js-module name="getExtPath" src="www/getExtPath.js">
+		<clobbers target="cordova.plugins.getExtPath" />
+	</js-module>
+
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="getExtPath">
+				<param name="android-package" value="cordova.plugin.getExtPath.getExtPath" />
+			</feature>
+			 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/getExtPath.java" target-dir="src/cordova/plugin/getExtPath/getExtPath" />
+	</platform>
+</plugin>
