@@ -10,7 +10,7 @@
 			<feature name="getExtPath">
 				<param name="android-package" value="cordova.plugin.getExtPath.getExtPath" />
 			</feature>
-			 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+			 <uses-permission platform="android" name="android.permission.READ_EXTERNAL_STORAGE" />
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/getExtPath.java" target-dir="src/cordova/plugin/getExtPath/getExtPath" />
 	</platform>
