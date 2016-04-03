@@ -8,8 +8,10 @@ Because if we use a plugin to read device folder on internal / external storage,
 # Requiremets
 First you need to set android permissions to your Androidmanifest.xml
 
+```
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+```
 
 # Features
 
@@ -27,6 +29,7 @@ This plugin returns a JSON array with following info
 
 # How to use?
 
+```
 cordova.plugins.getExtPath.coolMethod("getMusic",function(music){
   //this returns a JSON array so
   for(var i = 0; i < music.length; i++){
@@ -43,6 +46,7 @@ cordova.plugins.getExtPath.coolMethod("getMusic",function(music){
 },function(msg){
   console.log('Oops! there was an error => '+msg)
 })
+```
 
 # TODO
 
