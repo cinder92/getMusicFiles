@@ -31,6 +31,12 @@ This plugin returns a JSON array with following info
 - Duration : Song duration (miliseconds)
 - Path : Absolute path in External / Internal storage
 
+# How to install?
+
+```
+cordova plugin add https://github.com/cinder92/getMusicFiles.git
+```
+
 # How to use?
 
 ```
