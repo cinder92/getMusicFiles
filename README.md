@@ -1,9 +1,9 @@
 # getMusicFiles
 
-This plugin was created to get all music files within metadata in our devices Android (4.x / 5.x), not implemented yet in 6.0, it cab be use to create a Music Player for example.
+This plugin was created to get all music files with metadata in our devices Android (4.x / 5.x), not implemented yet in 6.0, can be use to create a Music Player for example.
 
 # Why?
-Because if we use a plugin to read device folder on internal / external storage, app with cordova will be toooo SLOW, so with this plugin we can get all music files quickly.
+Because if we use a plugin to read device folders on internal / external storage, app with cordova will be to SLOW, so with this plugin we can get all music files quickly.
 
 # Requiremets
 
