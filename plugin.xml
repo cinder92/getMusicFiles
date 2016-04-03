@@ -13,5 +13,6 @@
 			</feature>
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/getExtPath.java" target-dir="src/cordova/plugin/getExtPath/getExtPath" />
+		<config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/Blur.java" target-dir="src/cordova/plugin/getExtPath/getExtPath" />
 	</platform>
 </plugin>
