@@ -6,6 +6,10 @@ This plugin was created to get all music files within metadata in our devices An
 Because if we use a plugin to read device folder on internal / external storage, app with cordova will be toooo SLOW, so with this plugin we can get all music files quickly.
 
 # Requiremets
+
+- Android 4.x - 5.x
+- Cordova 3.x - 5.x
+
 First you need to set android permissions to your Androidmanifest.xml
 
 ```
